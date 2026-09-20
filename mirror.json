@@ -1,13 +1,13 @@
 {
   "appPackageName": "com.android5.ai",
   "appLatestVersion": "2.0.3",
-  "appLatestCodeVersion": 60,
+  "appLatestCodeVersion": 61,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
-  "updateStatus": "Latest release v2.0.3 (Build 60)",
+  "updateStatus": "Latest release v2.0.3 (Build 61)",
   "updateRequired": false,
   "updateLinkAvailable": true,
-  "downloadUrl": "https://github.com/lunadevph/AIChat/releases/latest"
+  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk"
 }
