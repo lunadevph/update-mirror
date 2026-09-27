@@ -1,12 +1,12 @@
 {
   "appPackageName": "com.android5.ai",
-  "appLatestVersion": "2.9.9",
-  "appLatestCodeVersion": 99,
+  "appLatestVersion": "3.0.0",
+  "appLatestCodeVersion": 100,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
-  "updateStatus": "Latest release v2.9.9 (Build 99)",
+  "updateStatus": "Latest release v3.0.0 (Build 100)",
   "updateRequired": false,
   "updateLinkAvailable": true,
   "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk"
