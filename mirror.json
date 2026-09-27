@@ -9,5 +9,6 @@
   "updateStatus": "Latest release v3.0.0 (Build 100)",
   "updateRequired": false,
   "updateLinkAvailable": true,
-  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk"
+  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk",
+  "changelog": "- Initial release of v2.9.9\n- Fixed updater version mismatch bug\n- Improved update system with changelog support"
 }
