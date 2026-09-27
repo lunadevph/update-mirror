@@ -7,7 +7,7 @@
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
   "updateStatus": "Latest release v2.9.9 (Build 99)",
-  "updateRequired": false,
+  "updateRequired": true,
   "updateLinkAvailable": true,
   "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk"
 }
