@@ -1,14 +1,14 @@
 {
   "appPackageName": "com.android5.ai",
-  "appLatestVersion": "3.0.0",
-  "appLatestCodeVersion": 102,
+  "appLatestVersion": "261017.002",
+  "appLatestCodeVersion": 261017002,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
-  "updateStatus": "Latest release v3.0.0 (Build 102)",
+  "updateStatus": "Latest release v261017.002 (Build 261017002)",
   "updateRequired": false,
   "updateLinkAvailable": true,
   "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk",
-  "changelog": "- Initial release of v2.9.9\n- Fixed updater version mismatch bug\n- Improved update system with changelog support"
+  "changelog": "- OpenCode Zen: fixed chat and model-list endpoints (OpenAI-compatible base URL + separate model catalog path)\n- OpenCode Zen: hide free-tier models that reject third-party clients (HTTP 403)\n- Fixed the web search toggle not reflecting changes made in Settings\n- Retry/regenerate no longer duplicates the user message\n- Show an error when sending without a valid API key for the active provider\n- Dynamic (System) theme now follows the system light/dark setting\n- Fixed invisible system-bar icons on the night splash screen\n- Fixed the conversation drawer list being clipped at the bottom"
 }
