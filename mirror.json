@@ -1,14 +1,14 @@
 {
   "appPackageName": "com.android5.ai",
-  "appLatestVersion": "261017.003",
-  "appLatestCodeVersion": 261017003,
+  "appLatestVersion": "261017.004",
+  "appLatestCodeVersion": 261017004,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
-  "updateStatus": "Latest release v261017.003 (Build 261017003)",
+  "updateStatus": "Latest release v261017.004 (Build 261017004)",
   "updateRequired": false,
   "updateLinkAvailable": true,
   "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk",
-  "changelog": "- Removed the OpenCode Zen provider; it is no longer offered in setup, settings or the model picker.\n- All remaining user-facing text (update screen, setup screen, empty-state suggestions) now comes from translatable string resources."
+  "changelog": "- Removed the OpenCode Zen provider; it is no longer offered in setup, settings or the model picker.\n- If you had OpenCode Zen selected, the app now falls back to the default provider instead of staying on the retired one.\n- All remaining user-facing text (update screen, setup screen, empty-state suggestions) now comes from translatable string resources."
 }
