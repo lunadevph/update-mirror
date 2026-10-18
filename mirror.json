@@ -1,14 +1,14 @@
 {
   "appPackageName": "com.android5.ai",
-  "appLatestVersion": "261018.005",
-  "appLatestCodeVersion": 261018005,
+  "appLatestVersion": "261018.006",
+  "appLatestCodeVersion": 261018006,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
-  "updateStatus": "Latest release v261018.005 (Build 261018005)",
+  "updateStatus": "Latest release v261018.006 (Build 261018006)",
   "updateRequired": false,
   "updateLinkAvailable": true,
   "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk",
-  "changelog": "- The top bar is back to a plain centred bar: the app's mark, the name and the current model sit together in the middle, with the menu button on the left and the overflow menu on the right. The tall flexible bar is gone.\n- The app's mark is back to the flat rounded tile it used before, on every screen, instead of the gradient blob — and the empty chat screen no longer has a second shape peeking out behind it.\n- Rate limits are no longer an error. When a provider answers \"too many requests\", the app waits and tries again by itself — 2 seconds, then 4, 8 and 16, or however long the provider asks for — and shows the countdown where \"AI is thinking\" normally appears. Stopping the reply still cancels it.\n- The rate-limit message now only appears after several retries have failed, and says the provider is still busy rather than asking you to wait a moment.\n- When a provider rejects a reply for using its own tool-call format — Groq's \"Tool choice is none, but model called a tool\" — the app now asks once more, telling the model to use the plain tags this app understands, instead of failing your message.\n- The tool instructions now tell the model outright never to use a provider's native function-call syntax, which is what triggers that rejection.\n- If it still fails, the error now says what to do: turn off Tool calls in Settings → AI settings, or choose a different model."
+  "changelog": "- A reply that arrives empty because the model asked for a tool in its own format is no longer shown as a blank bubble. The app notices, asks the model once more to write its tool requests with the plain tags it understands, and only reports a problem if that attempt fails too.\n- Native tool calls are caught both while a reply streams in and when it arrives in one piece, so the empty-bubble case is handled on every provider that does it."
 }
