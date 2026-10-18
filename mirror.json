@@ -1,14 +1,20 @@
 {
+  "schemaVersion": 2,
   "appPackageName": "com.android5.ai",
-  "appLatestVersion": "261018.006",
-  "appLatestCodeVersion": 261018006,
+  "appLatestVersion": "261018.007",
+  "appLatestCodeVersion": 261018007,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
-  "updateStatus": "Latest release v261018.006 (Build 261018006)",
+  "nvidiaIcon": "ic_provider_nvidia.png",
+  "updateStatus": "Latest release v261018.007 (Build 261018007)",
   "updateRequired": false,
+  "minVersionCode": 0,
   "updateLinkAvailable": true,
   "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk",
-  "changelog": "- A reply that arrives empty because the model asked for a tool in its own format is no longer shown as a blank bubble. The app notices, asks the model once more to write its tool requests with the plain tags it understands, and only reports a problem if that attempt fails too.\n- Native tool calls are caught both while a reply streams in and when it arrives in one piece, so the empty-bubble case is handled on every provider that does it."
+  "releasedAt": "2026-10-18T12:34:21Z",
+  "apkSizeBytes": 22715807,
+  "apkSha256": "70f4a3b52f25579580299bb209604d268571fd4e1c8cc21a2e19af23b32ef975",
+  "changelog": "- The launch screen now follows the system light/dark setting instead of always being black, and the status and navigation bar icons match the theme instead of staying white in light mode.\n- Elements that used raw colour values instead of the dynamic palette now take theirs from the theme file — theme swatches in Settings show the actual palette, and the window background matches the launch screen.\n- The assistant can now read, search, write, move, copy and delete in your shared folders (`/storage/emulated/0/…`) with absolute paths, not just copy files into its private workspace. One rule for every file tool: a relative path means the workspace, an absolute one means your device. Deleting a shared root itself is refused.\n- Five new tools: `<replace>` (regular-expression replacement, with `<edit>` staying literal), `<find>` (locate files and folders by name pattern), `<stat>` (size, dates, line count and permissions of one file or folder), `<tail>` (the last lines of a log or long document) and `<storage/>` (where the assistant can read and write, and how much room is left). Searches can be limited to one folder.\n- NVIDIA NIM is the ninth provider: Nemotron and hosted open models through `integrate.api.nvidia.com`, with its own mark in the picker.\n- The update mirror now carries its format version, a release timestamp, the APK's size and SHA-256, an optional minimum supported build, and a provider icon for NVIDIA. The downloaded update is checked against that hash before it is offered to the installer, and a build below the minimum is forced to update.\n- Every field a previous version of the app already reads is unchanged, and the new ones default sensibly, so an old build keeps updating from a new mirror."
 }
