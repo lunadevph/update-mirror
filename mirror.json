@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
   "appPackageName": "com.android5.ai",
-  "appLatestVersion": "261018.007",
-  "appLatestCodeVersion": 261018007,
+  "appLatestVersion": "261018.008",
+  "appLatestCodeVersion": 261018008,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
   "nvidiaIcon": "ic_provider_nvidia.png",
-  "updateStatus": "Latest release v261018.007 (Build 261018007)",
+  "updateStatus": "Latest release v261018.008 (Build 261018008)",
   "updateRequired": false,
   "minVersionCode": 0,
   "updateLinkAvailable": true,
   "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk",
-  "releasedAt": "2026-10-18T12:34:21Z",
-  "apkSizeBytes": 22715807,
-  "apkSha256": "70f4a3b52f25579580299bb209604d268571fd4e1c8cc21a2e19af23b32ef975",
-  "changelog": "- The launch screen now follows the system light/dark setting instead of always being black, and the status and navigation bar icons match the theme instead of staying white in light mode.\n- Elements that used raw colour values instead of the dynamic palette now take theirs from the theme file — theme swatches in Settings show the actual palette, and the window background matches the launch screen.\n- The assistant can now read, search, write, move, copy and delete in your shared folders (`/storage/emulated/0/…`) with absolute paths, not just copy files into its private workspace. One rule for every file tool: a relative path means the workspace, an absolute one means your device. Deleting a shared root itself is refused.\n- Five new tools: `<replace>` (regular-expression replacement, with `<edit>` staying literal), `<find>` (locate files and folders by name pattern), `<stat>` (size, dates, line count and permissions of one file or folder), `<tail>` (the last lines of a log or long document) and `<storage/>` (where the assistant can read and write, and how much room is left). Searches can be limited to one folder.\n- NVIDIA NIM is the ninth provider: Nemotron and hosted open models through `integrate.api.nvidia.com`, with its own mark in the picker.\n- The update mirror now carries its format version, a release timestamp, the APK's size and SHA-256, an optional minimum supported build, and a provider icon for NVIDIA. The downloaded update is checked against that hash before it is offered to the installer, and a build below the minimum is forced to update.\n- Every field a previous version of the app already reads is unchanged, and the new ones default sensibly, so an old build keeps updating from a new mirror."
+  "releasedAt": "2026-10-18T13:13:04Z",
+  "apkSizeBytes": 22741847,
+  "apkSha256": "d3587ca33761bc4cc02e2ecacd8a673fd6e8244c89e62e3ed7a55358c83dea04",
+  "changelog": "- You can add your own provider. Any OpenAI-compatible endpoint works: give it a name and base URL in Settings → AI & Provider → API Keys → Add provider, with an optional description, key prefix, model list and default model. Custom providers appear in the setup picker and the key manager like the built-ins, can be set active, and can be removed again.\n- A custom provider without a hand-written model list has its catalog fetched from the endpoint, exactly like the built-in ones."
 }
