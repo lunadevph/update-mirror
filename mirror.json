@@ -13,7 +13,7 @@
   "minVersionCode": 0,
   "updateLinkAvailable": true,
   "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk?v=261019011",
-  "releasedAt": "2026-10-19T12:48:13Z",
+  "releasedAt": "2026-10-19T12:48:43Z",
   "apkSizeBytes": 22792745,
   "apkSha256": "ea757984a9eef0d69232c13d6f56011ef6a98f0790075f21c12751a2c9638f54",
   "changelog": "- While a reply streams in, you can now scroll up to read earlier messages; the view no longer yanks itself to the bottom on every token.\n- A mechanical guard now fails the release build if `app/changelog.txt` is empty or has no bullets, so stale release notes can no longer ship."
