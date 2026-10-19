@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
   "appPackageName": "com.android5.ai",
-  "appLatestVersion": "261019.014",
-  "appLatestCodeVersion": 261019014,
+  "appLatestVersion": "261019.015",
+  "appLatestCodeVersion": 261019015,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
   "nvidiaIcon": "ic_provider_nvidia.png",
-  "updateStatus": "Latest release v261019.014 (Build 261019014)",
+  "updateStatus": "Latest release v261019.015 (Build 261019015)",
   "updateRequired": false,
   "minVersionCode": 0,
   "updateLinkAvailable": true,
-  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk?v=261019014",
-  "releasedAt": "2026-10-19T12:57:35Z",
-  "apkSizeBytes": 22793289,
-  "apkSha256": "97ee5b1c86087cf8927be8c59c4f29d29c5fa79037ffc7b3d3f31f860c6993c6",
-  "changelog": "- The assistant can now run shell commands on the device via the `<shell>` tool, and is explicitly instructed to use it instead of refusing — list directories, check versions, search code, run scripts, inspect the system.\n- The About sheet now shows the creator (LunaDevPH) and build date alongside the version.\n- A mechanical guard fails the release build if `app/changelog.txt` is empty or has no bullets, so stale release notes can no longer ship."
+  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk?v=261019015",
+  "releasedAt": "2026-10-19T13:04:16Z",
+  "apkSizeBytes": 22793409,
+  "apkSha256": "d1ba5136a5886450fed7c6f362d9eb84d3bde3f45a2b295fb60bfdd6e6e029e2",
+  "changelog": "- Tool runs (which tools a reply used and the files it touched) now render inside the message bubble instead of as a separate row beneath it.\n- While a reply streams in, the view only auto-scrolls to the bottom when you are already there; scrolling up to read earlier messages no longer fights every token. A new message always jumps to the latest.\n- The assistant can run shell commands on the device via the `<shell>` tool, and is explicitly instructed to use it instead of refusing.\n- The About sheet shows the creator (LunaDevPH) and build date alongside the version.\n- A mechanical guard fails the release build if `app/changelog.txt` is empty or has no bullets, so stale release notes can no longer ship."
 }
