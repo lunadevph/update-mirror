@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
   "appPackageName": "com.android5.ai",
-  "appLatestVersion": "261019.001",
-  "appLatestCodeVersion": 261019001,
+  "appLatestVersion": "261019.002",
+  "appLatestCodeVersion": 261019002,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
   "nvidiaIcon": "ic_provider_nvidia.png",
-  "updateStatus": "Latest release v261019.001 (Build 261019001)",
+  "updateStatus": "Latest release v261019.002 (Build 261019002)",
   "updateRequired": false,
   "minVersionCode": 0,
   "updateLinkAvailable": true,
   "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk",
-  "releasedAt": "2026-10-19T09:11:11Z",
-  "apkSizeBytes": 22743791,
-  "apkSha256": "eb5d06870c2de6fb9f3f57377d87ad4ea8bdbe012fff2aae6d2edab9aca1ab78",
-  "changelog": "- Three more appearances, all AppCompat-based (pre-Material 3): **Old Android** (gingerbread green on black, sharp corners), **Holo** (holo blue on black, sharp corners) and **Compact** (a denser Material 3 with tighter corners and a smaller type scale). Pick them in Settings → Appearance; the window and system bars follow through AppCompat themes, and the content follows through the Compose theme."
+  "releasedAt": "2026-10-19T10:40:19Z",
+  "apkSizeBytes": 22759587,
+  "apkSha256": "804d2774752666345a57fb6762a1c53946236f546ca5850514a99b207340facb",
+  "changelog": "- Claude now actually works: the app speaks Anthropic's Messages API (`/v1/messages`, content blocks, SSE deltas) instead of the OpenAI shape it was sending, so Claude is a real provider rather than a 404 at chat time.\n- Tool runs (which tools a reply used and the files it touched) are now saved with the conversation and come back when you reopen a chat, instead of vanishing on reload.\n- Image search no longer fires on every prompt that happens to contain \"image\", \"photo\", \"picture\" or \"show me\" — only whole-word image terms trigger it.\n- Attaching an image that cannot be read now tells you instead of silently dropping it and answering a different question.\n- Setup can no longer trap you: a failed or invalid key offers a \"Skip setup\" button, and custom providers show the right key link instead of OpenRouter's.\n- Destructive actions are consistent: per-conversation delete, per-file delete, workspace clear, and custom-provider removal all ask for confirmation before acting.\n- Touch targets on the clear-key, delete-provider and delete-file buttons are now the standard 48dp.\n- Switch rows (AI settings, device storage) announce as a single switch to TalkBack instead of two overlapping nodes, and conversation rows no longer pretend to be tabs.\n- Copying a message or a code block shows a brief \"Copied\" toast.\n- \"New chat\" no longer creates duplicate empty conversations when tapped repeatedly.\n- The top bar now shows the current conversation's title instead of always \"AI Chat\".\n- The \"Edit\" action is labelled \"Edit message\" (it fills the box; it does not resend).\n- The update screen's version cards no longer clip long version names, and its top bar has a title.\n- The crash screen's stack trace is now selectable, matching the file preview.\n- The compact theme's emphasized type styles now scale down with the rest of the type.\n- The model picker's empty state has an icon and a centred message, matching the other empty states.\n- The update screen reports \"No download link\", \"wrong package\" and \"low storage\" distinctly instead of a generic connection error, and clears stale cached APKs before a new download.\n- Keys that cannot be encrypted are never stored in plaintext; the keystore failure is reported instead.\n- A killed mid-stream reply no longer reopens with a stuck \"typing\" indicator.\n- Attached images are deleted when their conversation is deleted or cleared, instead of accumulating forever.\n- NVIDIA models no longer show a spurious \"Vision\" badge.\n- The dead `CREATING_IMAGE` status, the unused remote-icon write, the dead `SettingsManager.conversations` property and several vestigial strings are gone.\n- The README provider table now lists NVIDIA, and documents the full `/storage/emulated/0` scope of device storage."
 }
