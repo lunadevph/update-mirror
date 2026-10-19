@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
   "appPackageName": "com.android5.ai",
-  "appLatestVersion": "261018.008",
-  "appLatestCodeVersion": 261018008,
+  "appLatestVersion": "261019.001",
+  "appLatestCodeVersion": 261019001,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
   "nvidiaIcon": "ic_provider_nvidia.png",
-  "updateStatus": "Latest release v261018.008 (Build 261018008)",
+  "updateStatus": "Latest release v261019.001 (Build 261019001)",
   "updateRequired": false,
   "minVersionCode": 0,
   "updateLinkAvailable": true,
   "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk",
-  "releasedAt": "2026-10-18T13:13:04Z",
-  "apkSizeBytes": 22741847,
-  "apkSha256": "d3587ca33761bc4cc02e2ecacd8a673fd6e8244c89e62e3ed7a55358c83dea04",
-  "changelog": "- You can add your own provider. Any OpenAI-compatible endpoint works: give it a name and base URL in Settings → AI & Provider → API Keys → Add provider, with an optional description, key prefix, model list and default model. Custom providers appear in the setup picker and the key manager like the built-ins, can be set active, and can be removed again.\n- A custom provider without a hand-written model list has its catalog fetched from the endpoint, exactly like the built-in ones."
+  "releasedAt": "2026-10-19T09:11:11Z",
+  "apkSizeBytes": 22743791,
+  "apkSha256": "eb5d06870c2de6fb9f3f57377d87ad4ea8bdbe012fff2aae6d2edab9aca1ab78",
+  "changelog": "- Three more appearances, all AppCompat-based (pre-Material 3): **Old Android** (gingerbread green on black, sharp corners), **Holo** (holo blue on black, sharp corners) and **Compact** (a denser Material 3 with tighter corners and a smaller type scale). Pick them in Settings → Appearance; the window and system bars follow through AppCompat themes, and the content follows through the Compose theme."
 }
