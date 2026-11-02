@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
   "appPackageName": "com.android5.ai",
-  "appLatestVersion": "1.0.1",
-  "appLatestCodeVersion": 261019018,
+  "appLatestVersion": "1.0.2",
+  "appLatestCodeVersion": 261019019,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
   "nvidiaIcon": "ic_provider_nvidia.png",
-  "updateStatus": "Latest release v1.0.1 (Build 261019018)",
+  "updateStatus": "Latest release v1.0.2 (Build 261019019)",
   "updateRequired": false,
   "minVersionCode": 0,
   "updateLinkAvailable": true,
-  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk?v=261019018",
-  "releasedAt": "2026-11-02T03:44:48Z",
-  "apkSizeBytes": 22816729,
-  "apkSha256": "d51ddafd7681964c341737ec96ed587d0d6a7558ec3b4999e69434d628df73b5",
-  "changelog": "- Tool activity and results stay visible even when the assistant has no accompanying text.\n- Reading earlier messages no longer jumps to the bottom when a reply or tool result arrives.\n- The message composer gives text more space on small screens and keeps the current draft after rotation.\n- Tool execution shows a clear working status, and result details can be opened for every tool.\n- Backup password fields remain accessible with the keyboard open.\n- Duplicate thinking indicators are removed, and reasoning panels are hidden by default.\n- Tools with no arguments work correctly, and a fresh workspace is created before the first tool runs.\n- Tool errors now explain the current JSON format instead of suggesting obsolete tags."
+  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk?v=261019019",
+  "releasedAt": "2026-11-02T04:58:54Z",
+  "apkSizeBytes": 22846889,
+  "apkSha256": "16488118fa3b6837021dffd0f264d1bca41af5a016fcad78251099b791ebd93d",
+  "changelog": "- The assistant receives the current device date, time and timezone with every request, including resumed conversations.\n- Backup timestamps now correctly record UTC.\n- Activity labels are shorter, tool results use clearer expandable cards, and the actions arrow follows the menu state.\n- Command-line access is restored through shell and exec tools, with exit codes, output limits, timeouts and cancellation."
 }
