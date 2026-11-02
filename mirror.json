@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
   "appPackageName": "com.android5.ai",
-  "appLatestVersion": "1.0.0",
-  "appLatestCodeVersion": 261019017,
+  "appLatestVersion": "1.0.1",
+  "appLatestCodeVersion": 261019018,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
   "nvidiaIcon": "ic_provider_nvidia.png",
-  "updateStatus": "Latest release v1.0.0 (Build 261019017)",
+  "updateStatus": "Latest release v1.0.1 (Build 261019018)",
   "updateRequired": false,
   "minVersionCode": 0,
   "updateLinkAvailable": true,
-  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk?v=261019017",
-  "releasedAt": "2026-11-02T03:26:45Z",
-  "apkSizeBytes": 22815597,
-  "apkSha256": "2c4e95bda3e9d7b550e2a568c4dd1a33cf71a46d8ab1d1884eccd177b58f0222",
-  "changelog": "- Versions now use simple major.minor.patch numbers instead of date-based names.\n- The assistant continues after running tools, retains their results for follow-up questions, and reports empty provider replies instead of silently stopping.\n- The assistant now uses structured tool calls and receives each tool result directly, with support for streaming and Claude.\n- Switching or clearing chats stops the current reply so it cannot overwrite another conversation.\n- Chat saves preserve the previous messages if a save fails.\n- New backups use a password and include attached images so they can be restored on another device.\n- Large image attachments are resized to reduce memory use.\n- Shell execution is disabled to keep tools within their allowed storage folders.\n- Provider switching keeps API keys separate, and custom provider endpoints are used correctly.\n- Copying or importing a file onto itself no longer risks damaging its contents."
+  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk?v=261019018",
+  "releasedAt": "2026-11-02T03:44:48Z",
+  "apkSizeBytes": 22816729,
+  "apkSha256": "d51ddafd7681964c341737ec96ed587d0d6a7558ec3b4999e69434d628df73b5",
+  "changelog": "- Tool activity and results stay visible even when the assistant has no accompanying text.\n- Reading earlier messages no longer jumps to the bottom when a reply or tool result arrives.\n- The message composer gives text more space on small screens and keeps the current draft after rotation.\n- Tool execution shows a clear working status, and result details can be opened for every tool.\n- Backup password fields remain accessible with the keyboard open.\n- Duplicate thinking indicators are removed, and reasoning panels are hidden by default.\n- Tools with no arguments work correctly, and a fresh workspace is created before the first tool runs.\n- Tool errors now explain the current JSON format instead of suggesting obsolete tags."
 }
