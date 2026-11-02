@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
   "appPackageName": "com.android5.ai",
-  "appLatestVersion": "1.0.2",
-  "appLatestCodeVersion": 261019019,
+  "appLatestVersion": "1.0.3",
+  "appLatestCodeVersion": 261019020,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
   "nvidiaIcon": "ic_provider_nvidia.png",
-  "updateStatus": "Latest release v1.0.2 (Build 261019019)",
+  "updateStatus": "Latest release v1.0.3 (Build 261019020)",
   "updateRequired": false,
   "minVersionCode": 0,
   "updateLinkAvailable": true,
-  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk?v=261019019",
-  "releasedAt": "2026-11-02T04:58:54Z",
-  "apkSizeBytes": 22846889,
-  "apkSha256": "16488118fa3b6837021dffd0f264d1bca41af5a016fcad78251099b791ebd93d",
-  "changelog": "- The assistant receives the current device date, time and timezone with every request, including resumed conversations.\n- Backup timestamps now correctly record UTC.\n- Activity labels are shorter, tool results use clearer expandable cards, and the actions arrow follows the menu state.\n- Command-line access is restored through shell and exec tools, with exit codes, output limits, timeouts and cancellation."
+  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk?v=261019020",
+  "releasedAt": "2026-11-02T05:10:54Z",
+  "apkSizeBytes": 22848441,
+  "apkSha256": "1156cb5a559677cae6fc274a428806049e8e4a27954c2d7553d868dfa8d111ec",
+  "changelog": "- Empty-reply retries now request a text answer without rerunning tools.\n- Replies that run out of tokens get more room on retry, and blocked or truncated replies show a specific explanation.\n- More provider response formats are read correctly, including text blocks and non-streamed responses returned during streaming.\n- Empty-reply recovery reduces reasoning on supported providers so the retry can produce a visible answer."
 }
