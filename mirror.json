@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
   "appPackageName": "com.android5.ai",
-  "appLatestVersion": "1.0.4",
-  "appLatestCodeVersion": 261019021,
+  "appLatestVersion": "1.0.5",
+  "appLatestCodeVersion": 261019022,
   "googleIcon": "ic_provider_gemini.png",
   "openaiIcon": "ic_provider_openai.png",
   "openrouterIcon": "ic_provider_openrouter.png",
   "groqIcon": "ic_provider_groq.png",
   "nvidiaIcon": "ic_provider_nvidia.png",
-  "updateStatus": "Latest release v1.0.4 (Build 261019021)",
+  "updateStatus": "Latest release v1.0.5 (Build 261019022)",
   "updateRequired": false,
   "minVersionCode": 0,
   "updateLinkAvailable": true,
-  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk?v=261019021",
-  "releasedAt": "2026-11-03T10:42:09Z",
-  "apkSizeBytes": 22851821,
-  "apkSha256": "3b16ec8e0485a63d063624c3217f1b3a90d39bd0cc3d3670ff74fe95660afb7f",
-  "changelog": "- Thinking, searching, tool execution and the answer now continue inside one chat bubble.\n- Live activity labels have a subtle shining effect, and each tool call shows waiting, running and completion status.\n- A new Show tool output setting hides result details while keeping activity visible.\n- Stopping or retrying a reply preserves completed tool results in the same bubble."
+  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/latest.apk?v=261019022",
+  "releasedAt": "2026-11-03T11:03:39Z",
+  "apkSizeBytes": 22799127,
+  "apkSha256": "a9287015158bc71fe2902fc2216f3aae8109f3265b0d943a32a910d69390dc6f",
+  "changelog": "- Provider logos have been refreshed with crisp, consistently spaced vector artwork and improved dark-mode contrast.\n- Custom providers now use a neutral connection icon instead of the OpenRouter logo.\n- A subtle animated three-dot indicator replaces the thinking icon."
 }
