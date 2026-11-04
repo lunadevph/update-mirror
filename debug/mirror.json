@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "channel": "debug",
+  "buildNumber": "261104",
+  "appPackageName": "com.android5.ai",
+  "appLatestVersion": "1.0.7",
+  "appLatestCodeVersion": 261019024,
+  "googleIcon": "ic_provider_gemini.png",
+  "openaiIcon": "ic_provider_openai.png",
+  "openrouterIcon": "ic_provider_openrouter.png",
+  "groqIcon": "ic_provider_groq.png",
+  "nvidiaIcon": "ic_provider_nvidia.png",
+  "updateStatus": "Latest release v1.0.7 (Build 261019024)",
+  "updateRequired": false,
+  "minVersionCode": 0,
+  "updateLinkAvailable": true,
+  "downloadUrl": "https://raw.githubusercontent.com/lunadevph/update-mirror/main/debug/latest.apk?v=261019024",
+  "releasedAt": "2026-11-04T04:15:35Z",
+  "apkSizeBytes": 30131185,
+  "apkSha256": "d0941c016541fce09d70f997ac097e49c5e6cc155546861c6a20cdfe9e9c9c05",
+  "changelog": "- Fixed Gemini tool replies failing with HTTP 400 by preserving tool-call continuation data.\n- Fixed the distorted Gemini provider icon."
+}
